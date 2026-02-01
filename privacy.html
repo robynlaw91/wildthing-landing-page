@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Wild Thing UK - Learn how we collect, use, and protect your personal information.">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy | Wild Thing UK</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --black: #0a0a0a;
+            --dark: #141414;
+            --dark-gray: #1a1a1a;
+            --medium-gray: #2a2a2a;
+            --light-gray: #888;
+            --white: #fff;
+            --gold: #c9a962;
+            --gold-light: #e5d4a1;
+            --pink: #e84393;
+            --pink-light: #fd79a8;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--pink);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--pink-light);
+        }
+
+        /* Header */
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--medium-gray);
+            z-index: 100;
+            padding: 20px 0;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--gold);
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--light-gray);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            color: var(--white);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        .page-header {
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .last-updated {
+            color: var(--light-gray);
+            font-size: 0.9rem;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--gold);
+        }
+
+        p {
+            color: var(--light-gray);
+            margin-bottom: 16px;
+        }
+
+        ul, ol {
+            color: var(--light-gray);
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            background: var(--dark-gray);
+            border: 1px solid var(--medium-gray);
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 16px;
+        }
+
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+
+        .contact-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            border-top: 1px solid var(--medium-gray);
+            padding: 32px 0;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-legal {
+            color: var(--light-gray);
+            font-size: 0.85rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-links a {
+            color: var(--light-gray);
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .age-badge {
+            background: var(--pink);
+            color: var(--white);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">Wild Thing<span>.</span></a>
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                Back to Home
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: January 2026</p>
+        </div>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>
+                Wild Thing UK ("we", "our", "us") is committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+            </p>
+            <p>
+                Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Information We Collect</h2>
+
+            <h3>Personal Information</h3>
+            <p>We may collect personal information that you voluntarily provide to us when you:</p>
+            <ul>
+                <li>Fill out a contact or quote request form</li>
+                <li>Make a booking or enquiry</li>
+                <li>Subscribe to our newsletter</li>
+                <li>Contact us via phone, email, or social media</li>
+            </ul>
+            <p>This information may include:</p>
+            <ul>
+                <li>Name and contact details (email, phone number, address)</li>
+                <li>Event details (date, location, number of guests)</li>
+                <li>Payment information (processed securely via our payment provider)</li>
+                <li>Any other information you choose to provide</li>
+            </ul>
+
+            <h3>Automatically Collected Information</h3>
+            <p>When you visit our website, we may automatically collect certain information, including:</p>
+            <ul>
+                <li>IP address and browser type</li>
+                <li>Device information and operating system</li>
+                <li>Pages visited and time spent on our website</li>
+                <li>Referring website addresses</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the information we collect to:</p>
+            <ul>
+                <li>Process and fulfil your bookings</li>
+                <li>Respond to your enquiries and provide customer support</li>
+                <li>Send you booking confirmations and updates</li>
+                <li>Send marketing communications (with your consent)</li>
+                <li>Improve our website and services</li>
+                <li>Comply with legal obligations</li>
+                <li>Prevent fraud and protect our business</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Legal Basis for Processing (GDPR)</h2>
+            <p>Under the UK GDPR, we process your personal data on the following legal bases:</p>
+            <ul>
+                <li><strong>Contract:</strong> Processing necessary to fulfil our contract with you (e.g., providing the entertainment service you booked)</li>
+                <li><strong>Consent:</strong> Where you have given explicit consent (e.g., marketing communications)</li>
+                <li><strong>Legitimate Interests:</strong> Where processing is necessary for our legitimate business interests (e.g., improving our services)</li>
+                <li><strong>Legal Obligation:</strong> Where we need to comply with a legal or regulatory obligation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Sharing Your Information</h2>
+            <p>We may share your information with:</p>
+            <ul>
+                <li><strong>Performers:</strong> We share relevant booking details with the performer assigned to your event</li>
+                <li><strong>Payment Processors:</strong> To process your payments securely</li>
+                <li><strong>Service Providers:</strong> Third parties who assist us in operating our website and business</li>
+                <li><strong>Legal Authorities:</strong> When required by law or to protect our rights</li>
+            </ul>
+            <p>We do not sell your personal information to third parties.</p>
+        </section>
+
+        <section>
+            <h2>6. Data Security</h2>
+            <p>
+                We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.
+            </p>
+        </section>
+
+        <section>
+            <h2>7. Data Retention</h2>
+            <p>We retain your personal information only for as long as necessary to fulfil the purposes for which it was collected, including to satisfy legal, accounting, or reporting requirements. Typically:</p>
+            <ul>
+                <li>Booking records: 7 years (for tax and legal purposes)</li>
+                <li>Marketing preferences: Until you unsubscribe</li>
+                <li>Website analytics: 26 months</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Your Rights</h2>
+            <p>Under the UK GDPR, you have the following rights:</p>
+            <ul>
+                <li><strong>Access:</strong> Request a copy of your personal data</li>
+                <li><strong>Rectification:</strong> Request correction of inaccurate data</li>
+                <li><strong>Erasure:</strong> Request deletion of your data ("right to be forgotten")</li>
+                <li><strong>Restriction:</strong> Request restricted processing of your data</li>
+                <li><strong>Portability:</strong> Request transfer of your data to another service</li>
+                <li><strong>Objection:</strong> Object to processing based on legitimate interests</li>
+                <li><strong>Withdraw Consent:</strong> Withdraw consent at any time where processing is based on consent</li>
+            </ul>
+            <p>To exercise any of these rights, please contact us at <a href="mailto:privacy@mywildthing.co.uk">privacy@mywildthing.co.uk</a>.</p>
+        </section>
+
+        <section>
+            <h2>9. Cookies</h2>
+            <p>
+                We use cookies and similar tracking technologies to enhance your experience on our website. For more information, please see our <a href="terms.html#cookies">Cookie Policy</a>.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Third-Party Links</h2>
+            <p>
+                Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to read the privacy policies of any third-party sites you visit.
+            </p>
+        </section>
+
+        <section>
+            <h2>11. Children's Privacy</h2>
+            <p>
+                Our services are intended for adults aged 18 and over only. We do not knowingly collect personal information from anyone under the age of 18. If we become aware that we have collected personal data from a minor, we will take steps to delete that information.
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.
+            </p>
+        </section>
+
+        <section>
+            <h2>13. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+            <div class="contact-box">
+                <p><strong>Wild Thing UK</strong></p>
+                <p>Email: <a href="mailto:privacy@mywildthing.co.uk">privacy@mywildthing.co.uk</a></p>
+                <p>Phone: <a href="tel:08001234567">0800 123 4567</a></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>14. Supervisory Authority</h2>
+            <p>If you are not satisfied with our response to your complaint, you have the right to lodge a complaint with the Information Commissioner's Office (ICO):</p>
+            <p>Website: <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">www.ico.org.uk</a></p>
+            <p>Helpline: 0303 123 1113</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-legal">&copy; 2026 Wild Thing UK. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+            </div>
+            <span class="age-badge">18+ Only</span>
+        </div>
+    </footer>
+</body>
+</html>
